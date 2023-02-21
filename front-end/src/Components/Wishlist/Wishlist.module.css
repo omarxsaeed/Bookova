@@ -1,0 +1,51 @@
+.container {
+  width: 60%;
+  background-color: blue;
+}
+
+.table-container {
+  width: 100%;
+}
+.table-tr {
+  text-align: center;
+}
+.table-th {
+  text-align: center;
+  padding-left: 3%;
+}
+.tbody-td1 {
+  vertical-align: middle;
+  text-align: start;
+  padding: 0;
+  width: 5%;
+}
+.tbody-td2 {
+  width: 15%;
+}
+.tbody-td2 img {
+  padding: 0;
+  width: 95%;
+  height: 100%;
+}
+.tbody-td3 {
+  width: 40%;
+  vertical-align: middle;
+}
+.tbody-td3 h5 {
+  padding: 0%;
+  margin: 0%;
+}
+.tbody-td4 {
+  vertical-align: middle;
+  width: 20%;
+  text-align: center;
+}
+.tbody-td5 {
+  vertical-align: middle;
+  text-align: center;
+}
+.tbody-td6 {
+  vertical-align: middle;
+  width: 20%;
+  text-align: center;
+}

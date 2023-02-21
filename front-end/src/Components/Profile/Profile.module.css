@@ -1,0 +1,24 @@
+.pro-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.aside {
+    margin: auto 0;
+    /* width: ; */
+}
+.info p {
+    margin-bottom: 0;
+}
+.info p:nth-child(even) {
+    color: grey;
+    /* margin-bottom: 1px; */
+}
+.info p:nth-child(odd) {
+    /* color: grey; */
+    margin-bottom: 5px;
+}
