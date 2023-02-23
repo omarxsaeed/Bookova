@@ -1,8 +1,8 @@
-const respondWith = (status, statusCode, message, data, res) => {
+const respondWith = (statusCode, data, message, success, res) => {
   res.status(statusCode).json({
-    status,
-    message,
     data,
+    message,
+    success,
   });
 };
 
