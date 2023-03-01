@@ -11,7 +11,7 @@ routesSettings(app);
 app.use("/api", routes);
 
 // Connecting with Mongoose
-connectMongoose();
+await connectMongoose();
 
 // Error Handeler (Any error will be propagated to this function to send a resposne):
 mainErrorHandler(app);
