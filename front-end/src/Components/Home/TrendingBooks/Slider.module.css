@@ -1,0 +1,35 @@
+ .img1{
+    border-radius: 1rem;
+    width: 13rem;
+
+}
+.pTitle{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50px;
+color:var(--white) ;
+background-color: var(--dark-blue);
+border-radius: 10px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: var(--white );
+    background-color: var(--soft-blue);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.section-bg::before{
+    content: "";
+    position:absolute;
+    margin-top: 8rem;
+    background-color: var( --slider-backgroundcolor);
+    width: 92rem;
+    height:14rem;
+    border-radius: 40px;
+}
+.section-bg{
+ padding: 4rem 0;
+}
+

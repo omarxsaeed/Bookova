@@ -1,0 +1,20 @@
+.service-card {
+  height: 169px;
+  border-radius: 25px;
+  border-color: var(--horizon) ;
+}
+.section-title{
+  color: var(--similar) ;
+
+}
+.service-title{
+  color: var(--similar) ;
+}
+.service-details{
+  color: var(--dark-gray) ;
+
+}
+.icon {
+  width: 90px;
+  height: 60px;
+}

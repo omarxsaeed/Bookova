@@ -1,38 +1,27 @@
 .App {
-  text-align: center;
+  font-family: 'Poppins', -apple-system;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root{
+  /*
+   * when using linear  linear-gradient use background-image NOT background-color
+   * example:
+   * background-image: var(--hero-backgroundcolor);
+  */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  --hero-backgroundcolor:linear-gradient(90deg, rgba(1,53,85,1) 0%, rgba(66,120,154,1) 56%, rgba(69,123,157,0.5) 80%, rgba(74,125,158,0.45) 82%, rgba(79,126,159,0.4) 85%, rgba(82,127,160,0.35) 87%, rgba(87,129,161,0.3) 89%, rgba(92,131,162,0.25) 91%, rgba(95,132,163,0.2) 94%, rgba(97,133,163,0.15) 96%, rgba(101,134,164,0.1) 99%, rgba(149,150,175,0.06214985994397759) 100%);
+  --linear-blue:linear-gradient(90deg, rgba(149,150,175,1) 0%, rgba(69,123,157,1) 10%, rgba(1,53,85,1) 100%);
+  --navy-blue:#195D86;
+  --baby-blue:#C4D9E8;
+  --white:#ffffff;
+  --warn:#FF9C00;
+  --brown:#865A0B;
+  --horizon:#6381AB;
+  --similar:#2E5080;
+  --dark-gray:#565A5F;
+  --light-blue:#a8dadc;
+  --dark-blue:#457B9D;
+  --nav-backgroundcolor:rgba(85, 128, 161, 0.3 );
+  --slider-backgroundcolor:rgba(177, 212, 234, 0.3);
+  --soft-blue:rgba(69, 123, 157, 0.5);
+} 

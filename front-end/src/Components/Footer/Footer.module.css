@@ -1,0 +1,54 @@
+.info-footer{
+    height: 20rem;
+    background-color:var(--baby-blue) ;
+}
+.logo-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+}
+.logo-title{
+    color:  var(--navy-blue);
+    font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    
+}
+.smallest{
+    color:  var(--warn);
+    font-size: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+
+
+}
+.address{
+    color: var(--navy-blue);
+    
+}
+.b-add{
+    font-weight: bolder;
+}
+
+.about-us ul{
+    list-style-type: none;
+    color:  var(--navy-blue);
+    
+}
+.about-us li a {
+    text-decoration: none;
+    color:  var(--navy-blue);
+}
+.f-dark{
+   color: var(--white);
+    background-image: var(--linear-blue);
+    width: 100%;
+    height:3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+
+    
+}

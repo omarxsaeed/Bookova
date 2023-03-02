@@ -1,0 +1,53 @@
+  .main-section {
+  background-image: var(--hero-backgroundcolor);
+  height: 450px;
+  position: relative;
+  top: -73px;
+  z-index: -1;
+  
+}
+.overlay{
+  position: absolute;
+  background-image: var(--hero-backgroundcolor);
+  width: 81.2%;
+  height: 28.125rem;
+  z-index: -1;
+}
+.hero-head{
+  margin-left: 24%;
+}
+.hero-slider
+{
+  cursor: pointer;
+  z-index: -2;
+}
+.library-l
+{
+align-content: center;
+}
+.main-title {
+  color: var(--white);
+  font-size: 45px;
+  font-weight: 600;
+  padding-top: 8rem;
+}
+.word {
+  color: var(  --warn);
+}
+.main-p {
+  font-size: 14px;
+  width: 14rem;
+  color: var(--white);
+}
+.seemore-btn {
+  background-color: var(  --warn);
+  color: var(  --brown);
+  margin-right: 15px;
+  border-radius: 10px;
+  border-style: none;
+  padding: 10px 35px;
+
+}
+.image-ver {
+  border-radius: 1rem;
+}

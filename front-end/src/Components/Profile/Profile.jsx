@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import "./Profile.module.css";
 import pic from "./imgs/profile.png";

@@ -1,0 +1,73 @@
+.nav-links {
+    list-style-type: none;
+}
+.nav-bg{
+    background-color: var(--nav-backgroundcolor);
+
+}
+ .link-active {
+    text-decoration: none;
+    color: var( --white);
+    font-size: 16px;
+   font-weight: bold;
+   
+}
+.nav-links :focus,
+.nav-links :hover 
+{
+color: var(--warn);
+}
+
+.shop-list,
+.shop-list:hover{
+    width : 44rem;
+    padding: 1rem;
+    color: var(--dark-gray);
+}
+.dropdown-menu{
+    inset:none;
+    top:3rem;
+    left: -30rem;
+}
+
+.nav-title{
+    color:  var(--white);
+    font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.nav-smallest{
+    margin-bottom: 0;
+    color:  var( --warn);
+    font-size: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+
+}
+
+.nav-btn{
+    border-radius: 10px;
+    width: 120px;
+    padding: 8px;
+
+}
+
+.sign-btn {
+    background-color: var( --warn);
+    color: var(--brown);
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+.sign-btn:hover{
+    background-color: #ffc466;
+}
+.login-btn {
+    background-color: transparent;
+    color: var( --warn);
+    border: 1px solid;
+    transition: 0.2s ease-in-out;
+  }
+  .login-btn:hover{
+    background-color: var( --warn);
+    color: var(  --brown);
+  }
